@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SucessAlertComponent } from './sucess-alert/sucess-alert.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     WarningAlertComponent,
-    SucessAlertComponent
+    SucessAlertComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,

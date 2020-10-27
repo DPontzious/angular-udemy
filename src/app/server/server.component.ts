@@ -5,5 +5,7 @@ import { Component } from '@angular/core';
     templateUrl: "./server.component.css"
 })
 export class ServerComponent {
-
+    serviceID: number = 10;
+    statusServer: boolean = true;
+    nameIs: string = "Danelle";
 }
